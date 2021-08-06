@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+from webdriver_manager.firefox import GeckoDriverManager
 
 from time import sleep
 from io import StringIO
@@ -25,12 +25,14 @@ from object_detection.utils import ops as utils_ops
 from object_detection.utils import label_map_util
 from object_detection.utils import visualization_utils as vis_util
 
-#http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_2018_01_28.tar.gz 
-#http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
-#http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz 
 
-class RecaptchaElement():
+# http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet101_coco_2018_01_28.tar.gz
+# http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
+# http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+
+class RecaptchaElement:
     """docstring for RecaptchaElement"""
+
     def __init__(self, element, row, col, img, puzzle_type):
         super(RecaptchaElement, self).__init__()
         self.row = row
@@ -47,8 +49,10 @@ class RecaptchaElement():
         img = Image.fromarray(self.img)
         img.show()
 
-class TFRecaptcha():
+
+class TFRecaptcha:
     """docstring for TFRecaptcha"""
+
     def __init__(self):
         super(TFRecaptcha, self).__init__()
         self.test_url = "https://patrickhlauke.github.io/recaptcha/"
@@ -67,6 +71,8 @@ class TFRecaptcha():
             'motorcycles',
             'crosswalk',
             'crosswalks',
+            'stair',
+            'stairs',
             'unknown'
         ]
         """
@@ -75,10 +81,10 @@ class TFRecaptcha():
         """
         self.elements = []
         self.recaptchas = []
-        #Bool for determining harvesting or solving mode
-        self.harvest_mode = False
+        # Bool for determining harvesting or solving mode
+        self.harvest_mode = True
         self.model_name = 'faster_rcnn_resnet101_coco_2018_01_28'
-        self.PATH_TO_LABELS = 'models/research/object_detection/data/mscoco_label_map.pbtxt'
+        self.PATH_TO_LABELS = 'mscoco_label_map.pbtxt'
         self.create_image_class_dirs()
         self.target_puzzle_type = "3x3"
         self.profile = webdriver.FirefoxProfile()
@@ -101,15 +107,14 @@ class TFRecaptcha():
         # patch tf1 into `utils.ops`
         utils_ops.tf = tf.compat.v1
         tf.gfile = tf.io.gfile
-        #https://stackoverflow.com/questions/43147983/could-not-create-cudnn-handle-cudnn-status-internal-error
+        # https://stackoverflow.com/questions/43147983/could-not-create-cudnn-handle-cudnn-status-internal-error
         config = ConfigProto()
         config.gpu_options.per_process_gpu_memory_fraction = 0.6
         config.gpu_options.allow_growth = True
-        session = InteractiveSession(config=config)
         self.detection_model = self.load_model(self.model_name)
         # List of the strings that is used to add correct label for each box.
-        self.category_index = label_map_util.create_category_index_from_labelmap(self.PATH_TO_LABELS, use_display_name=True)
-
+        self.category_index = label_map_util.create_category_index_from_labelmap(self.PATH_TO_LABELS,
+                                                                                 use_display_name=True)
 
     def load_model(self, model_name):
         base_url = 'http://download.tensorflow.org/models/object_detection/'
@@ -119,8 +124,8 @@ class TFRecaptcha():
             origin=base_url + model_file,
             untar=True)
 
-        model_dir = pathlib.Path(model_dir)/"saved_model"
-        #model = tf.compat.v2.saved_model.load(str(model_dir), None)
+        model_dir = pathlib.Path(model_dir) / "saved_model"
+        # model = tf.compat.v2.saved_model.load(str(model_dir), None)
         model = tf.saved_model.load(str(model_dir))
         model = model.signatures['serving_default']
         return model
@@ -133,11 +138,11 @@ class TFRecaptcha():
         """
         # the array based representation of the image will be used later in order to prepare the
         # result image with boxes and labels on it.
-        #image_np = np.array(Image.open(image_path))
+        # image_np = np.array(Image.open(image_path))
         # Actual detection.
         input_tensor = tf.convert_to_tensor(image)
         # The model expects a batch of images, so add an axis with `tf.newaxis`.
-        input_tensor = input_tensor[tf.newaxis,...]
+        input_tensor = input_tensor[tf.newaxis, ...]
 
         # Run inference
         output_dict = self.detection_model(input_tensor)
@@ -146,8 +151,8 @@ class TFRecaptcha():
         # Convert to numpy arrays, and take index [0] to remove the batch dimension.
         # We're only interested in the first num_detections.
         num_detections = int(output_dict.pop('num_detections'))
-        output_dict = {key:value[0, :num_detections].numpy() 
-                     for key,value in output_dict.items()}
+        output_dict = {key: value[0, :num_detections].numpy()
+                       for key, value in output_dict.items()}
         output_dict['num_detections'] = num_detections
 
         # detection_classes should be ints.
@@ -157,8 +162,8 @@ class TFRecaptcha():
         if 'detection_masks' in output_dict:
             # Reframe the the bbox mask to the image size.
             detection_masks_reframed = utils_ops.reframe_box_masks_to_image_masks(
-                      output_dict['detection_masks'], output_dict['detection_boxes'],
-                       image.shape[0], image.shape[1])
+                output_dict['detection_masks'], output_dict['detection_boxes'],
+                image.shape[0], image.shape[1])
             detection_masks_reframed = tf.cast(detection_masks_reframed > 0.5,
                                                tf.uint8)
             output_dict['detection_masks_reframed'] = detection_masks_reframed.numpy()
@@ -166,8 +171,8 @@ class TFRecaptcha():
         for index, value in enumerate(output_dict['detection_classes']):
             if output_dict['detection_scores'][index] > 0.5:
                 results.append(self.category_index.get(value))
-        
-        classes = {v['id']:v for v in results}.values()
+
+        classes = {v['id']: v for v in results}.values()
         output = []
         for c in classes:
             output.append(c['name'])
@@ -180,7 +185,7 @@ class TFRecaptcha():
         # options = Options()
         # options.set_headless()
         # self.browser = webdriver.Firefox(options=options)
-        self.browser = webdriver.Firefox(firefox_profile=self.profile)
+        self.browser = webdriver.Firefox(firefox_profile=self.profile, executable_path=GeckoDriverManager().install())
         if self.browser:
             return True
         else:
@@ -208,7 +213,6 @@ class TFRecaptcha():
         except Exception as e:
             print("[ERROR] TFRecaptcha::detect_recaptcha_type()): {0}".format(e))
             return False, None
-        return False, None
 
     def detect_incomplete_verify(self):
         """
@@ -216,13 +220,13 @@ class TFRecaptcha():
         puzzle elements have been clicked.
         """
         return bool(self.browser.find_element_by_class_name("rc-imageselect-error-select-more").text)
-    
+
     def detect_failure_to_wait_for_img_refresh(self):
         """
         This will detect if the solve button was clicked before new images were generated
         """
         return bool(self.browser.find_element_by_class_name("rc-imageselect-error-dynamic-more").text)
-        
+
     def is_3x3_image_grid(self):
         """ 
         The recaptchas seem to either be 3x3 or 4x4 puzzles.
@@ -267,7 +271,7 @@ class TFRecaptcha():
         """
         self.elements = self.browser.find_elements_by_class_name("rc-image-tile-wrapper")
         return self.elements
-        
+
     def open_test_recaptcha(self):
         """
         This will handle the funny process of getting to the frame for interacting with the recaptcha
@@ -277,7 +281,7 @@ class TFRecaptcha():
         sleep(2)
         self.browser.find_elements_by_xpath("//iframe[contains(@src, 'google')]")[0].click()
         sleep(2)
-        #Sauce
+        # Sauce
         recaptcha_iframe = self.browser.find_element_by_xpath(
             "//iframe[contains(@title, 'recaptcha challenge')]")
         self.browser.switch_to.frame(recaptcha_iframe)
@@ -345,19 +349,19 @@ class TFRecaptcha():
         else:
             grid_size = 4
         saved_img = self.download_recaptcha_img(puzzle_type)
-        im =  cv2.imread(saved_img)
-        imgheight=im.shape[0]
-        imgwidth=im.shape[1]
+        im = cv2.imread(saved_img)
+        imgheight = im.shape[0]
+        imgwidth = im.shape[1]
         y1 = 0
-        M = imgheight//grid_size
-        N = imgwidth//grid_size
+        M = imgheight // grid_size
+        N = imgwidth // grid_size
         index = -1
         for x in range(0, imgheight, N):
             for y in range(0, imgwidth, M):
                 index += 1
                 y1 = y + M
                 x1 = x + N
-                tile = im[x:x+N,y:y+M,]
+                tile = im[x:x + N, y:y + M, ]
                 cv2.rectangle(im, (x, y), (x1, y1), (0, 0, 0))
                 if self.harvest_mode:
                     rand = ''.join([random.choice(string.ascii_letters + string.digits) for n in range(8)])

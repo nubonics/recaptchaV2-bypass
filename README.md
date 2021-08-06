@@ -1,5 +1,7 @@
-# TF-ReCaptcha
+# RecaptchaV2 Bypass
 
+
+### Description
 This is a project to solve the ReCaptcha puzzle using Selenium and Tensorflow Object Detection API or maybe another object detection framework.
 
 You can interact with individual ReCaptcha puzzle elements through the RecaptchaElement class. Currently this supports clicking the element and rendering the image of the element.
@@ -62,8 +64,43 @@ True
 ['bicycle']
 ['bicycle', 'chair', 'car']
 ['person', 'truck']
->>> for r in T.recaptchas:
-...  if T.T.run_inference(r.img)
-
-
 ```
+
+### Roadmap
+    - TODO
+
+### Cross-compatibility
+    - Should be cross-compatible [untested on Windows and MacOS]
+
+### Limitations
+    - TODO
+
+### Dependencies
+    - python3.8
+
+    - protobuf - https://github.com/protocolbuffers/protobuf
+               - https://github.com/protocolbuffers/protobuf/blob/master/python
+
+### Installation
+    - python3.8 - Installation of python3.8 will be not be covered in this repositiory.
+    - protobuf  - Installation of protobuf will be not be covered in this repositiory.
+    
+    - pip3 install -r requirements.txt
+
+### Usage
+    # Harvest images that are used in the recaptchaV2 service
+    python3 harvester.py
+    
+    # Remove duplicate images
+    python3 remove_duplicate_images
+
+    # Manually classify harvested images
+    python3 manual_image_classification_tool.py
+
+    # Bypass the recaptchaV2 service
+    # NOTE: This is still a work in progress
+    # Edit bypass.py to your target site and impliment anything you may need
+    python3 bypass.py
+
+
+### Credits to https://github.com/M-Kruse/ for providing a large contribution towards this project

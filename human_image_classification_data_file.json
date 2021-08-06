@@ -1,0 +1,962 @@
+[
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/SuWAQI92.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/PnDdMBvR.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/BIOc8Yxm.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/731kxM5l.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/tmLQcVLr.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/10I4fPXY.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/V4dX70lZ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/7TPdrXim.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/abW8dDTP.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/pIfwrTff.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/wA5DISGB.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ifoYQv90.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/od16VOLR.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/nCaWCguZ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/58fFAOTE.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/CXzmth6v.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Fe1TmNgQ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/5PBXBZmb.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/vKz0ETm6.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/BswzHv4Z.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/bI6DrtO9.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/y9csYJIF.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/pxCOVtLE.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/FK7LfAoA.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/FFCZWYaK.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/XjlQiXsh.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/SaUMHcYo.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/n3lIwC5v.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/YZJ4LJ0g.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/6K29LLLF.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/c4k5Zyva.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/om71etGn.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/jmhz5njH.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/aPnCUyJ2.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/dCKOEkfM.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/wt5MUuM5.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/EbThmZP3.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/58Iuonvx.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/6pka6arv.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/tLjOED0Q.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ARtYUe0R.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/reOnbHgd.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/CMJJSriF.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/G9FJOBtB.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ZvCKEdbg.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/qOHyo4S0.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/AcUBI7RO.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/PFr2mF0v.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/dBocwutD.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/GFzhaSyd.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/dG7w8w75.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/LFtqgIOR.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/cK97PkLp.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/WHppTY88.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/NeBYoNqD.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/RM8MA6zs.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/0aZFVnkG.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/gAc0GVvn.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/3h0ctOM7.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/z48lhU10.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/hXBhllqX.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/yIJxgbty.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/yHvNRLdv.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/3TQdt82W.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/6nCFahSi.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/WfgZkcYR.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/EE2Cqxzk.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ApddDNlv.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/81TseJmB.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Qpkb4lqk.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ofwdZVLP.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/kd6Gj8Hl.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/iRXdVaUs.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Lwes0rOK.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ao1kHdNf.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Dv6Kq31k.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/2aQMwhbw.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/HeWUgaWT.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/cWiFLVAl.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/HmLBBk1C.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/XLOe1ig9.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Av6Y652R.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/bWuyhHin.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Im7kl7lJ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Itf6ESIg.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/O8AODfh6.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Vz1vwm3C.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/UWJdVIPN.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/3H2wimW4.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/sYmKArMa.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/C2zb0DMq.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/xYukDay4.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/4jDX7EpH.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/PBggLP2k.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/72IHWcOM.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/s5lGh85K.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/IpPeTESP.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/4bWNX0fb.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/gI9RuTgS.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/0fckjqXi.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/9TVWTsnx.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/OuvHjDWs.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/nIUPRRCl.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/mDeuZYU0.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/lTVBiEx4.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/itJVWcE9.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/6prhplnm.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/8X4SVUJB.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ophea0bP.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/YB8CkDtj.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/fKUx38kA.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/QfWlrA48.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/uQF1sVeS.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/VxrUMJCA.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ttNoIrpr.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/iIykIBvI.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/iQx1GqGF.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/cpgRFpoh.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/b7m0Icnr.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/IknNv6nN.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Q4IGGb9M.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/JxoFzUpK.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/lsNJmUJr.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/EJ220Biy.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/AtMZ4mox.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/MheZzEhX.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/vGKVsNI3.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/fg0Xfwhe.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/aANGOLOZ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/gxA9KWOz.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Lo5mdWKn.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/cNOAoyTI.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/9yPxF1YG.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/zhRk4UNz.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/FK3ZlQwL.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Wn2W19To.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/9hC4x47t.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/bo6g4okM.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/QOpCsDG5.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Q7koTlZF.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/PtU8cED2.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Yp4jgaSg.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/7UCkolAy.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/DPmX3iE9.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/2HYm82bV.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/t0wIjP2z.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/NBBO7NrC.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/s9kppQub.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/8sUhb1rF.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/QXSzmFPf.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/AqCs7RUZ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/UX0ogKki.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/gegqo12D.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/P7y5R1M2.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/20scdekD.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/oXhSyKM5.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/wzKTO9Cq.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/I6VALEQ6.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/76xsMuTG.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/jbJcn7vX.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/EslFKO4E.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Dn2CQ41x.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/bkJCgeCH.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/kpAxyWoS.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/62wnuBje.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/XD9O9LOX.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/E0xsPdTt.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/fQD4S0cD.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/fnAFstv5.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/ndJzuckt.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/tpo24r28.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/QphSvXPY.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/03Jb0QLo.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/DGP7K28x.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/AmNQVOPn.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/9s9KgI4r.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/uf1tc9a2.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/fiDDSfXR.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/VnPuLpM5.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Y7NnomQo.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/LBb1bmsJ.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/p0MBgnss.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/jonSjOns.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/WozoHlDY.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/4gugPuE1.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/XJVSMX2X.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/bH7OigWN.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/42NVfPuz.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/PZDNox7r.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": true,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/kOstI9kq.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/Bg3yUydg.png"
+    },
+    {
+        "image_classification": "bicycle",
+        "human_answer": false,
+        "image_filepath": "/home/nubonix/PycharmProjects/TF-ReCaptcha/imgs/bicycle/3x3/2BGa7zSx.png"
+    }
+]

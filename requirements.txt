@@ -1,0 +1,10 @@
+requests~=2.26.0
+selenium~=3.141.0
+numpy~=1.19.5
+pillow~=8.3.1
+opencv-python~=4.5.3.56
+tensorflow~=2.5.0
+tensorflow-object-detection-api
+webdriver-manager
+scipy
+PyQt5~=5.15.4
