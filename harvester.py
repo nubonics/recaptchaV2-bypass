@@ -1,8 +1,8 @@
-from bypass import TFRecaptcha
+from recaptchaV2bypass import RecaptchaV2Bypass
 
 
 def harvester():
-    t = TFRecaptcha()
+    t = RecaptchaV2Bypass(harvest_mode=True)
     t.init_tf()
     t.init_browser()
 

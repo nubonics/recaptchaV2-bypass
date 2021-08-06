@@ -34,7 +34,7 @@ class RecaptchaElement:
     """docstring for RecaptchaElement"""
 
     def __init__(self, element, row, col, img, puzzle_type):
-        super(RecaptchaElement, self).__init__()
+        super().__init__()
         self.row = row
         self.column = col
         self.element = element
@@ -50,11 +50,11 @@ class RecaptchaElement:
         img.show()
 
 
-class TFRecaptcha:
-    """docstring for TFRecaptcha"""
+class RecaptchaV2Bypass:
+    """docstring for RecaptchaV2Bypass"""
 
-    def __init__(self):
-        super(TFRecaptcha, self).__init__()
+    def __init__(self, harvest_mode=False):
+        super().__init__()
         self.test_url = "https://patrickhlauke.github.io/recaptcha/"
         self.recaptcha_types = [
             'fire hydrant',
@@ -71,7 +71,6 @@ class TFRecaptcha:
             'motorcycles',
             'crosswalk',
             'crosswalks',
-            'stair',
             'stairs',
             'unknown'
         ]
@@ -81,12 +80,11 @@ class TFRecaptcha:
         """
         self.elements = []
         self.recaptchas = []
-        # Bool for determining harvesting or solving mode
-        self.harvest_mode = True
         self.model_name = 'faster_rcnn_resnet101_coco_2018_01_28'
         self.PATH_TO_LABELS = 'mscoco_label_map.pbtxt'
         self.create_image_class_dirs()
         self.target_puzzle_type = "3x3"
+        self.harvest_mode = harvest_mode
         self.profile = webdriver.FirefoxProfile()
 
     def create_image_class_dirs(self):
@@ -189,7 +187,7 @@ class TFRecaptcha:
         if self.browser:
             return True
         else:
-            print("[ERROR] TFRecaptcha::init_browser(): \
+            print("[ERROR] RecaptchaV2Bypass::init_browser(): \
                 Failed to create Firefox webdriver instance.")
             return False
 
@@ -211,7 +209,7 @@ class TFRecaptcha:
                             return False, captcha_type
             return False, None
         except Exception as e:
-            print("[ERROR] TFRecaptcha::detect_recaptcha_type()): {0}".format(e))
+            print("[ERROR] RecaptchaV2Bypass::detect_recaptcha_type()): {0}".format(e))
             return False, None
 
     def detect_incomplete_verify(self):
@@ -263,7 +261,7 @@ class TFRecaptcha:
             self.download_url(img_src, file_path)
             return file_path
         else:
-            print("[ERROR] TFRecaptcha::download_recaptcha_img(): Failed to download recaptcha image.")
+            print("[ERROR] RecaptchaV2Bypass::download_recaptcha_img(): Failed to download recaptcha image.")
 
     def get_recaptcha_elements(self):
         """
@@ -405,7 +403,7 @@ class TFRecaptcha:
             result = self.get_browser_preference(key)
             return result[1] is value
         except Exception as e:
-            print("[ERROR] TFRecaptcha::set_browser_preference(): {0}".format(e))
+            print("[ERROR] RecaptchaV2Bypass::set_browser_preference(): {0}".format(e))
             return False
 
     def get_browser_preference(self, key):
@@ -420,7 +418,7 @@ class TFRecaptcha:
             else:
                 return True, value
         except Exception as e:
-            print("[ERROR] TFRecaptcha::get_browser_preference(): {0}".format(e))
+            print("[ERROR] RecaptchaV2Bypass::get_browser_preference(): {0}".format(e))
             return False, None
 
     def random_delay(self, delay_min=0, delay_max=2):
