@@ -27,8 +27,8 @@ https://streamable.com/8rvkr4
 Python 3.8.2 (default, Apr 27 2020, 15:53:34) 
 [GCC 9.3.0] on linux
 Type "help", "copyright", "credits" or "license" for more information.
->>> from tf_recaptcha import TFRecaptcha
->>> T = TFRecaptcha()
+>>> from recaptchaV2bypass import RecaptchaV2Bypass 
+>>> T = RecaptchaV2Bypass()
 [INFO] Skipping image class directory creation for fire hydrant
 [INFO] Skipping image class directory creation for fire hydrants
 [INFO] Skipping image class directory creation for bicycle
@@ -100,7 +100,7 @@ True
     # Bypass the recaptchaV2 service
     # NOTE: This is still a work in progress
     # Edit bypass.py to your target site and impliment anything you may need
-    python3 bypass.py
+    python3 recaptchaV2bypass.py
 
 
 ### Credits to https://github.com/M-Kruse/ for providing a large contribution towards this project
